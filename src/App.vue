@@ -56,7 +56,7 @@ export default {
         sentPosts = [...new Set(this.lodash.concat(sentPosts, viewedPosts))];
         localStorage.sentIds = JSON.stringify(sentPosts)
         localStorage.postIds = JSON.stringify([])
-      }, 5000);
+      }, 10000);
 
 
 
